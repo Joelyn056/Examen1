@@ -13,7 +13,7 @@ namespace PrimerParcial.DAL.Scripts
         public DbSet<Grupos> grupos { get; set; }
 
         public Contexto() : base("ConStr")
-         {  }
+        {  }
   
     }
 }
